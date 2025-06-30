@@ -32,14 +32,14 @@ env/
 config.py
 
 # Большие файлы данных
-*.csv
+#*.csv
 *.dat
 *.pkl
 #*.joblib
 
 # Jupyter
 .ipynb_checkpoints/
-*.ipynb
+#*.ipynb
 
 # Если используете Jupyter Lab
 .jupyter/
