@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg-info/
+*.egg
+dist/
+build/
+
+# Virtual environments
+venv/
+.env/
+my_venv/
+env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+
+# Конфиденциальные данные
+*.env
+*.key
+*.secret
+config.py
+
+# Большие файлы данных
+*.csv
+*.dat
+*.pkl
+#*.joblib
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# Если используете Jupyter Lab
+.jupyter/
+
+# Пользовательске
+TZ/
+conflux_matrix.jpg
