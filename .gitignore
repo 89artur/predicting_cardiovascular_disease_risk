@@ -47,3 +47,6 @@ config.py
 # Пользовательске
 TZ/
 conflux_matrix.jpg
+
+datasets/*
+!datasets/.gitkeep

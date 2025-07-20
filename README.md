@@ -1,26 +1,26 @@
 # Стурктура папок
 📦predicting_cardiovascular_disease_risk<br>
 ┣━━ 📂**app**   # *папка c API-приложением*<br> 
-┃     ┗━━ 📜main_api.py   # *Основной файл FastAPI*<br> 
+┃     ┗━━ main_api.py   # *Основной файл FastAPI*<br> 
 
 ┣━━ 📂**check_answer**      # *папка со скриптом для проверки ответов*<br>
-┃   ┣━━ 📜api_response.json  # *json из API*<br>
-┃   ┣━━ 📜export_json_csv_from_api.py  # *экспорт json и csv из API*<br>
-┃   ┣━━ 📜predictions_from_api_from_json.csv  # *csv из API*<br>
-┃   ┣━━ 📜readme.md  <br>
-┃   ┣━━ 📜test_predictions.csv  # *csv из api из Юпитера ноутбука*<br>
-┃   ┗━━ 📜test.py<br> # *скрипт для проверки ответов*<br>
+┃   ┣━━ api_response.json  # *json из API*<br>
+┃   ┣━━ export_json_csv_from_api.py  # *экспорт json и csv из API*<br>
+┃   ┣━━ predictions_from_api_from_json.csv  # *csv из API*<br>
+┃   ┣━━ readme.md  <br>
+┃   ┣━━ test_predictions.csv  # *csv из api из Юпитера ноутбука*<br>
+┃   ┗━━ test.py<br> # *скрипт для проверки ответов*<br>
 
 ┣━━ 📂datasets                # *папка с датасетамии*
-┃   ┣━━ 📜heart_test.csv  # *тренирвочные данные*<br>
-┃   ┗━━ 📜heart_train.csv<br> # *сктестовые данные*<br>
+┃   ┣━━ -
+┃   ┗━━ -
 ┣━━ 📂model           # *папка с моделью МО*<br>
-┃   ┗━━ 📜best_model.joblib # *модель МО*<br>
-┣━━ 📜.gitignore<br>
-┣━━ 📜README.md           # *Этот файл*<br>
-┣━━ 📜da_practicum_env.yml # *конфигурационный файл для создания виртуального окружения для тетрадки Юпитер ноутбук*<br>
-┣━━ 📜predicting_cardiovascular_disease_risk.ipynb # *тетрадка Юпитер ноутбук*<br>
-┗━━ 📜requirements_main.txt    # *Зависимости Python для API*<br>
+┃   ┗━━ best_model.joblib # *модель МО*<br>
+┣━━ .gitignore<br>
+┣━━ README.md           # *Этот файл*<br>
+┣━━ da_practicum_env.yml # *конфигурационный файл для создания виртуального окружения для тетрадки Юпитер ноутбук*<br>
+┣━━ predicting_cardiovascular_disease_risk.ipynb # *тетрадка Юпитер ноутбук*<br>
+┗━━ requirements_main.txt    # *Зависимости Python для API*<br>
 # Описание проекта
 
 Используя данные пациентов, такие как возраст, привычки, состояние здоровья и результаты анализа крови разработать модель для предсказания риска сердечного приступа <br> 
