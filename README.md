@@ -14,7 +14,7 @@
 ┃   ┗━━ `best_model.joblib` - *модель МО*<br>
 ┣━━ `.gitignore`<br>
 ┣━━ `README.md`          - *Этот файл*<br>
-┣━━ `da_practicum_env.yml` - *конфигурационный файл для создания виртуального окружения для тетрадки Юпитер ноутбук*<br>
+┣━━ `da_practicum_env.yml` - *конфигурационный файл venv Юпитер ноутбук*<br>
 ┣━━ `predicting_cardiovascular_disease_risk.ipynb` - *тетрадка Юпитер ноутбук*<br>
 ┗━━ `requirements_main.txt`    - *Зависимости Python для API*<br>
 
