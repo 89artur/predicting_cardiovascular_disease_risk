@@ -48,5 +48,5 @@ config.py
 TZ/
 conflux_matrix.jpg
 
-datasets/*
 !datasets/.gitkeep
+datasets/*
