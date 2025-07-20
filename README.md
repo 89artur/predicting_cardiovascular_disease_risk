@@ -1,7 +1,9 @@
 # Стурктура папок
 📦predicting_cardiovascular_disease_risk<br>
 ┣━━ 📂**app**   # *папка c API-приложением*<br> 
-┃     ┗━━ main_api.py   # *Основной файл FastAPI*<br> 
+┃     ┗━━|  |  |
+         |:---   |:---  |
+main_api.py   # *Основной файл FastAPI*<br> 
 
 ┣━━ 📂**check_answer**      # *папка со скриптом для проверки ответов*<br>
 ┃   ┣━━ api_response.json  # *json из API*<br>
